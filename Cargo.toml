@@ -16,7 +16,7 @@ image = { version = "0.25", default-features = true, features = ["png", "jpeg"] 
 imageproc = "0.25"
 kamadak-exif = "0.6"
 nalgebra = "0.33"
-ndarray = "0.16"
+ndarray = "0.17"
 num_cpus = "1.16"
 opencv = { version = "0.94", optional = true, default-features = false, features = ["clang-runtime", "imgproc"] }
 ort = { version = "2.0.0-rc.10", default-features = false, features = ["ndarray", "std"] }
